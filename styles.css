@@ -47,13 +47,22 @@ a {
 .splash-landing {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	gap: 1rem;
 	img {
+		background-color: #E5E7EB;
 		width: 60%;
 	}
 	box-sizing: border-box;
 	padding: 4rem;
+	button {
+		border-radius: 2rem;
+		border-style: none;
+		flex-basis: 0;
+		width: 20%;
+		padding: 1rem;
+		color: #F9FAF8;
+	}
 }
 .text-holster {
 	display: flex;
