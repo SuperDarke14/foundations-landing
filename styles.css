@@ -137,11 +137,33 @@ a {
 	background-color: white;
 	justify-content: center;
 	align-items: center;
+	padding: 4rem;
 }
 
 .call-to-action {
 	background-color: #3882F6;
 	color: white;
 	display: flex;
-
+	padding: 2rem;
+	border-radius: 0.5rem;
+	border-style: none;
+	align-items: center;
+	.text-container {
+		padding: 1rem;
+	}
+	button {
+		border-style: solid;
+		border-color: white;
+		border-radius: 0.5rem;
+		color: white;
+		padding: 1rem;
+	}
 }
+.footer {
+        background-color: #1F2937;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
