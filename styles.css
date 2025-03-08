@@ -65,15 +65,13 @@ a {
 	box-sizing: border-box;
 	padding: 4rem;
 	button {
-		border-radius: 2rem;
+		border-radius: 0.5rem;
 		border-style: none;
 		flex-basis: 0;
 		width: 20%;
 		padding: 1rem;
 		color: #F9FAF8;
 	}
-	margin-bottom: 1rem;
-	margin-top: 1rem;
 }
 .text-holster {
 	display: flex;
@@ -86,9 +84,16 @@ a {
 	align-items: center;
 	justify-content: center;	
 	background-color: white;
+	padding: 3rem;
 }
-.information-header {
+#information-header {
 	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 36px;
+	font-weight: 900;
+
 }
 .information-list {
 	gap: 1rem;
@@ -112,6 +117,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	padding: 4rem;
+	width: 100%;
 
 }
 .quote {
